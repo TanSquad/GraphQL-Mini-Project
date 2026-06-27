@@ -9,4 +9,6 @@ const users = [
         name : "Tanu",
         age: 22
     }
-]
+];
+
+module.exports = users
