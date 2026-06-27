@@ -45,7 +45,7 @@ const RootQuery = new GraphQLObjectType({
 
 const Mutation = new GraphQLObjectType({
     name : "Mutation",
-    fileds: {
+    fields: {
         addUser: {
             type: UserType,
             args:{
